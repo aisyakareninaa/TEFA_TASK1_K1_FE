@@ -1,6 +1,6 @@
 
 PAGE HOME
-![Screenshot (294)](https://user-images.githubusercontent.com/100953845/197452458-85955539-a4eb-4ca7-85ab-3e46e684c206.png)
+![Screenshot (297)](https://user-images.githubusercontent.com/100953845/197452659-40748f7b-31c6-4882-87fb-3c15b97e4a92.png)
 
 PAGE PROFILE
-![Screenshot (295)](https://user-images.githubusercontent.com/100953845/197452485-21179d4a-5b4b-48b0-b79c-011161b45952.png)
+![Screenshot (296)](https://user-images.githubusercontent.com/100953845/197452680-414c20a8-052d-4b17-8fd9-99bd3e343bff.png)
