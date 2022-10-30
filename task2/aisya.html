@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eunoia</title>
+
+    <!-- Embedding CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Embedding Fontawoseme -->
+    <script
+      src="https://kit.fontawesome.com/22a69e2285.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Embedding AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <!-- Embedding Swiper JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="content">
+        <header>
+          <div class="logo">
+            <h3><span>Kelo</span>mpok 1</h3>
+          </div>
+          <input type="checkbox" id="menu-bar" />
+          <label for="menu-bar" class="fas fa-bars"></label>
+          <nav class="navbar">
+            <a href="aisya.html">Aisya</a>
+            <a href="alya.html">Alya</a>
+            <a href="celline.html">Celline</a>
+            <a href="gizella.html">Gizella</a>
+          </nav>
+        </header>
+
+        <div class="biodata">
+          <h2>Aisya</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      const swiper = new Swiper(".swiper", {
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+
+    <!-- Embedding JS -->
+    <script src="script.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  </body>
+</html>
