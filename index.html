@@ -1,91 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Euonia - Portofolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eunoia</title>
 
-  <body>
-    <div class="container">
-      <!-- Navbar Section -->
-      <section class="navbar">
-        <div class="logo">
-          <h3><span>Eu</span>noia</h3>
-        </div>
-        <nav>
-          <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li>
-              <a href="#">Members</a>
-              <ul class="dropdown">
-                <li><a href="">Aisya</a></li>
-                <li><a href="">Alya</a></li>
-                <li>
-                  <a href="">Celline</a>
-                </li>
-                <li>
-                  <a href="">Gizella</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="profile.html">About Us</a></li>
-          </ul>
+    <!-- Embedding CSS -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Embedding Fontawoseme -->
+    <script src="https://kit.fontawesome.com/22a69e2285.js" crossorigin="anonymous"></script>
+
+    <!-- Embedding AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <h3 class="logo"><span>Kelo</span>mpok 1</h3>
+        <input type="checkbox" id="menu-bar"/>
+        <label for="menu-bar" class="fas fa-bars"></label>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#biodata">Biodata</a>
         </nav>
-      </section>
-    </div>
-    <!-- Navbar End -->
+    </header>
 
-    <!-- Hero Profile Section -->
-    <section class="hero">
-      <div class="container">
-        <div class="hero-content">
-          <div class="content-title">
-            <h1>Meet Our Team</h1>
-          </div>
-          <div class="video">
-            <video
-              width="600"
-              height="330"
-              controls
-              preload="none"
-              poster="img/thumbnail.jpg"
-            >
-              <source src="video/VIDEO KELOMPOK.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <div class="group-name">
+    <!-- Sidebar -->
+    <ul class="sidebar" data-aos="fade-right" data-aos-offset="900">
+        <li class="side-item">
+            <a href="#home" class="side-link">
+                <i class="fas fa-home"></i>
+                <span class="text-side">Home</span>
+            </a>
+        </li>
+        <li class="side-item">
+            <a href="#about" class="side-link">
+                <i class="fas fa-user-secret"></i>
+                <span class="text-side">About Us</span>
+            </a>
+        </li>
+        <li class="side-item">
+            <a href="#biodata" class="side-link">
+                <i class="fas fa-address-card"></i>
+                <span class="text-side">Biodata</span>
+            </a>
+        </li>
+    </ul>
+
+    <!-- Header/Home -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Kelompok 1 <span>Eunoia</span></h3>
             <p>
-              EUNOIA berasal dari bahasa Yunani yang berarti “pemikiran yang
-              indah” atau “pemikiran yang baik.”<br />
-
-              Hal ini tentunya merupakan prinsip dari setiap anggota kelompok.
-              Dengan pikiran yang baik, kami optimis akan mampu bertahan lebih
-              kuat dan bermanfaat bagi masyarakat dengan ilmu yang telah kami
-              miliki.
+                Halo semuanya! Kenalin nih, kita dari Kelompok 1 TEFA SMK Telkom Malang. Yuk, cari tahu biodata semua membernya!
             </p>
-          </div>
+            <a href="#about" class="btn">View Team</a>
         </div>
-      </div>
+        <div class="image" data-tilt>
+            <img src="asset/eunoia-low-resolution-logo-color-on-transparent-background.png" alt="KagetGroup">
+        </div>
     </section>
-    <!-- Hero Profile End -->
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h1 class="heading">our team</h1>
+        <div class="column">
+            <div class="image">
+                <img src="asset/about.jpg" alt="about" width="360" height="480">
+            </div>
+            <div class="content" data-aos="fade-left" data-aos-duration="2000">
+                <p>
+                    EUNOIA berasal dari bahasa Yunani yang berarti “pemikiran yang indah” atau “pemikiran yang baik". Hal ini tentunya merupakan prinsip dari setiap anggota kelompok. Dengan pikiran yang baik, kami optimis akan mampu bertahan lebih kuat dan bermanfaat bagi masyarakat dengan ilmu yang telah kami miliki.
+                </p>
+                <a href="#product" class="btn">Selengkapnya</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Biodata -->
+    <section id="biodata">
+        <div id="biodata">
+            <h1 class="heading">Our Bidata</h1>
+        </div>
+        <div class="main-box">
+            <div class="main center" data-aos="fade-right" data-aos-duration="1000">
+                <div class="box center">
+                    <div>
+                        <p class="prod">Aisya Karenina Ramadhani</p>
+                    </div>
+                    <div class="arr-container center">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="left-container off left">
+                        <p>About Aisya</p>
+                        <div class="icons">
+                            <div class="slider">
+                                <div class="slides">
+                                    <!-- radio button -->
+                                    <input type="radio" name="radio-btn" id="radio1">
+                                    <input type="radio" name="radio-btn" id="radio2">
+                                    <input type="radio" name="radio-btn" id="radio3">
+                                    <!-- radio button end -->
+                        
+                                    <!-- slide image -->
+                                    <div class="slide first">
+                                        <img src="asset/Aisya/foto satu.jpeg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="asset/Aisya/foto dua.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="asset/Aisya/foto tiga.jpg" alt="">
+                                    </div>
+                                    <!-- slide image end -->
+                        
+                                    <!-- automatic navigation -->
+                                    <div class="navigation-auto">
+                                        <div class="auto-btn1"></div>
+                                        <div class="auto-btn2"></div>
+                                        <div class="auto-btn3"></div>
+                                    </div>
+                                    <!-- automatic navigation end -->
+                        
+                                    <!-- manual navigation -->
+                                    <div class="navigation-manual">
+                                        <label for="radio1" class="manual-btn"></label>
+                                        <label for="radio2" class="manual-btn"></label>
+                                        <label for="radio3" class="manual-btn"></label>
+                                    </div>
+                                    <!-- manual navigation end -->
+                                </div>
+                            </div>
+                            <p class="teks">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15805.130857854103!2d112.6551535!3d-7.9697067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6285c5c1b44e3%3A0xf6c889ac7452dc3a!2sTelkom%20School%20-%20SMK%20Telkom%20Malang!5e0!3m2!1sid!2sid!4v1667184910399!5m2!1sid!2sid" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="cancle center">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main center" data-aos="fade-right" data-aos-duration="1000">
+                <div class="box center">
+                    <div>
+                        <p class="prod">Alya Rusyda Maharistya</p>
+                    </div>
+                    <div class="arr-container center arr1">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="left-container off left1">
+                        <p>About Alya</p>
+                        <div class="icons">
+                            <div class="slider1">
+                                <div class="slides">
+                                    <!-- radio button -->
+                                    <input type="radio" name="radio-btn" id="radio4">
+                                    <input type="radio" name="radio-btn" id="radio5">
+                                    <input type="radio" name="radio-btn" id="radio6">
+                                    <!-- radio button end -->
+                        
+                                    <!-- slide image -->
+                                    <div class="slide first">
+                                        <img src="asset/Alya/_DSC3144.JPG" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="asset/Alya/IMG-20221011-WA0383.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="asset/Alya/IMG-20221012-WA0041(1).jpg" alt="">
+                                    </div>
+                                    <!-- slide image end -->
+                        
+                                    <!-- automatic navigation -->
+                                    <div class="navigation-auto">
+                                        <div class="auto-btn4"></div>
+                                        <div class="auto-btn5"></div>
+                                        <div class="auto-btn6"></div>
+                                    </div>
+                                    <!-- automatic navigation end -->
+                        
+                                    <!-- manual navigation -->
+                                    <div class="navigation-manual">
+                                        <label for="radio4" class="manual-btn"></label>
+                                        <label for="radio5" class="manual-btn"></label>
+                                        <label for="radio6" class="manual-btn"></label>
+                                    </div>
+                                    <!-- manual navigation end -->
+                                </div>
+                            </div>
+                            <p class="teks">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15805.130857854103!2d112.6551535!3d-7.9697067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6285c5c1b44e3%3A0xf6c889ac7452dc3a!2sTelkom%20School%20-%20SMK%20Telkom%20Malang!5e0!3m2!1sid!2sid!4v1667184910399!5m2!1sid!2sid" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="cancle center cancle1">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main center" data-aos="fade-right" data-aos-duration="1000">
+                <div class="box center">
+                    <div>
+                        <p class="prod">Celline Regia Yasshinta</p>
+                    </div>
+                    <div class="arr-container center arr2">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="left-container off left2">
+                        <p>About Celline</p>
+                        <div class="icons">
+                            <div class="slider2">
+                                <div class="slides">
+                                    <!-- radio button -->
+                                    <input type="radio" name="radio-btn" id="radio7">
+                                    <input type="radio" name="radio-btn" id="radio8">
+                                    <input type="radio" name="radio-btn" id="radio9">
+                                    <!-- radio button end -->
+                        
+                                    <!-- slide image -->
+                                    <div class="slide first">
+                                        <img src="asset/Celline/20220722055655363.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="asset/Celline/20220903182945892.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="asset/Celline/20221007191444160.jpg" alt="">
+                                    </div>
+                                    <!-- slide image end -->
+                        
+                                    <!-- automatic navigation -->
+                                    <div class="navigation-auto">
+                                        <div class="auto-btn7"></div>
+                                        <div class="auto-btn8"></div>
+                                        <div class="auto-btn9"></div>
+                                    </div>
+                                    <!-- automatic navigation end -->
+                        
+                                    <!-- manual navigation -->
+                                    <div class="navigation-manual">
+                                        <label for="radio7" class="manual-btn"></label>
+                                        <label for="radio8" class="manual-btn"></label>
+                                        <label for="radio9" class="manual-btn"></label>
+                                    </div>
+                                    <!-- manual navigation end -->
+                                </div>
+                            </div>
+                            <p class="teks">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15805.130857854103!2d112.6551535!3d-7.9697067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6285c5c1b44e3%3A0xf6c889ac7452dc3a!2sTelkom%20School%20-%20SMK%20Telkom%20Malang!5e0!3m2!1sid!2sid!4v1667184910399!5m2!1sid!2sid" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="cancle center cancle2">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main center" data-aos="fade-right" data-aos-duration="1000">
+                <div class="box center">
+                    <div>
+                        <p class="prod">Gizella Ratu Pramesti</p>
+                    </div>
+                    <div class="arr-container center arr3">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="left-container off left3">
+                        <p>About Gizella</p>
+                        <div class="icons">
+                            <div class="slider3">
+                                <div class="slides">
+                                    <!-- radio button -->
+                                    <input type="radio" name="radio-btn" id="radio10">
+                                    <input type="radio" name="radio-btn" id="radio11">
+                                    <input type="radio" name="radio-btn" id="radio12">
+                                    <!-- radio button end -->
+                        
+                                    <!-- slide image -->
+                                    <div class="slide first">
+                                        <img src="asset/Gizel/IMG-20221022-WA0055(2).jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="asset/Gizel/IMG-20221028-WA0080.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="asset/Gizel/IMG_1019.JPG" alt="">
+                                    </div>
+                                    <!-- slide image end -->
+                        
+                                    <!-- automatic navigation -->
+                                    <div class="navigation-auto">
+                                        <div class="auto-btn10"></div>
+                                        <div class="auto-btn11"></div>
+                                        <div class="auto-btn12"></div>
+                                    </div>
+                                    <!-- automatic navigation end -->
+                        
+                                    <!-- manual navigation -->
+                                    <div class="navigation-manual">
+                                        <label for="radio10" class="manual-btn"></label>
+                                        <label for="radio11" class="manual-btn"></label>
+                                        <label for="radio12" class="manual-btn"></label>
+                                    </div>
+                                    <!-- manual navigation end -->
+                                </div>
+                            </div>
+                            <p class="teks">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15805.130857854103!2d112.6551535!3d-7.9697067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6285c5c1b44e3%3A0xf6c889ac7452dc3a!2sTelkom%20School%20-%20SMK%20Telkom%20Malang!5e0!3m2!1sid!2sid!4v1667184910399!5m2!1sid!2sid" width="270" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="cancle center cancle3">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
     <!-- Footer -->
     <footer>
-      <div class="container">
-        <div class="footer-info">
-          <h3>Euonia</h3>
-          <h2>
-            TEFA Frontend -
-            <a href="https://smktelkom-mlg.sch.id/">SMK Telkom Malang</a>
-          </h2>
+        <div class="container">
+            <div class="col-left">
+                <a href="#home"><img src="asset/eunoia-low-resolution-logo-white-on-transparent-background.png" alt=""></a>
+                <p class="footer-text">Jl. Danau Ranau No. 01 Sawojajar, Kedungkandang, Kota Malang, Jawa Timur 65139</p>
+                <ul class="social-media-list">
+                    <li><a href="https://www.instagram.com/smktelkommalang/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.smktelkom-mlg.sch.id/" target="_blank"><i class="fab fa-chrome"></i></a></li>
+                    <li><a href="https://www.twitter.com/smktelkommalang/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://wa.me/" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://github.com/aisyakareninaa" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-right">
+                <ul class="links-container">
+                    <h4>Explore</h4>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#biodata">Biodata</a></li>
+                </ul>
+                <ul class="links-container">
+                    <h4>Member</h4>
+                    <li><a href="#product">Aisya</a></li>
+                    <li><a href="#product">Alya</a></li>
+                    <li><a href="#product">Celline</a></li>
+                    <li><a href="#product">Gizella</a></li>
+                </ul>
+                <ul class="links-container">
+                    <h4>Moklet</h4>
+                    <li><a href="https://www.smktelkom-mlg.sch.id/" target="_blank">Website</a></li>
+                    <li><a href="https://ppdb.smktelkom-mlg.sch.id/" target="_blank">PPDB</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="copyright">
-          <p>©Euonia est 2022</p>
-        </div>
-      </div>
     </footer>
-  </body>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 3){
+                counter = 1;
+            }
+        }, 4000);
+
+        var counter2 = 4;
+        setInterval(function(){
+            document.getElementById('radio' + counter1).checked = true;
+            counter2++;
+            if(counter2 > 6){
+                counter2 = 1;
+            }
+        }, 4000);
+
+        var counter2 = 7;
+        setInterval(function(){
+            document.getElementById('radio' + counter2).checked = true;
+            counter2++;
+            if(counter2 > 9){
+                counter2 = 1;
+            }
+        }, 4000);
+
+        var counter3 = 10;
+        setInterval(function(){
+            document.getElementById('radio' + counter3).checked = true;
+            counter3++;
+            if(counter3 > 12){
+                counter3 = 1;
+            }
+        }, 4000);
+    </script>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Embedding JS -->
+    <script src="script.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+</body>
 </html>
