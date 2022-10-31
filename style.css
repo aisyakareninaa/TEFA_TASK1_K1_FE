@@ -565,6 +565,7 @@ section {
     background-position: center;
     background-repeat: no-repeat;
   }
+
   footer .container {
     display: flex;
     align-items: center;
@@ -575,7 +576,11 @@ section {
   footer img {
     width: 30vw;
     height: 8vh;
-    margin-left: -15px;
+  }
+
+  .col-left {
+    margin-left: 4rem;
+    margin-right: 4vh;
   }
   .col-left {
     color: #fff;
