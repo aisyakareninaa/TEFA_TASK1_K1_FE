@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda&display=swap"); 
+
+//color
+$primary: #7E78C7;
+$dark: #544e92;
+$light: #7f78c777;
+$gray: #666;
+$gradient: linear-gradient(90deg, var($dark), var($primary));
+
+
+//color-sub
+$white:#fff;
+$dblack: #333;
+$transparent: transparent;
+$boxshadow:0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
+//font 
+$m: 'Monda';
+$ss: sans-serif;
+
+//fs (font size)
+$fsheading: 3.5rem;
+$fsnv:1.5rem; //navbar
+$fslabel:3rem; //label
+$fssidelink:15px;
+
+//size
+$pdt: 7.5rem;
+$pdb:2rem;
+$pd: 1rem; //padding
+$mlnav: 5rem;
+$pdlogo: 10px 0px;
+$mllogo: -20px;
+$wsidelink: 50px;
+$hsidelink: 50px;
+
+//sidebar 
+$zi: 1000;
+$bs: 0px 0 15px rgba(0, 0, 0, 0.8);
+
