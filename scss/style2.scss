@@ -308,25 +308,7 @@ header {
     overflow: hidden;
   }
 
-  .prod {
-    color: $primary;
-    font-size: 2.8rem;
-    font-weight: bold;
-  }
-
-  .prod1 {
-    color: $primary;
-    font-size: 2.8rem;
-    font-weight: bold;
-  }
-
-  .prod2 {
-    color: $primary;
-    font-size: 2.8rem;
-    font-weight: bold;
-  }
-
-  .prod3 {
+  .prod, .prod1, .prod2, .prod3 {
     color: $primary;
     font-size: 2.8rem;
     font-weight: bold;
@@ -364,22 +346,9 @@ header {
     transition: all 0.4s;
   }
 
-  .left {
+  .left, .left1, .left2, .left3 {
     background: $primary;
   }
-
-  .left1 {
-    background: $primary;
-  }
-
-  .left2 {
-    background: $primary;
-  }
-
-  .left3 {
-    background: $primary;
-  }
-
   .off {
     transform: translate(-80%, -80%) rotate(90deg);
   }
@@ -413,33 +382,12 @@ header {
     border-radius: 10px;
   }
 
-  .slider {
+  .slider, .slider1, .slider2, .slider3 {
     width: 250px;
     height: 250px;
     border-radius: 10px;
     overflow: hidden;
     margin-left: 4.5vw;
-}
-.slider1 {
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-left: 4.5vw;
-}
-.slider2 {
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-left: 4.5vw;
-}
-.slider3 {
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-left: 4.5vw;
 }
 .slides {
     width: 500%;
@@ -477,42 +425,18 @@ header {
         background: $white;
     }
 }
-#radio1:checked ~ .first {
-    margin-left: 0;
-}
-#radio2:checked ~ .first {
-    margin-left: -20%;
-}
-#radio3:checked ~ .first {
-    margin-left: -40%;
-}
-#radio4:checked ~ .first {
+#radio1:checked ~ .first, #radio4:checked ~ .first, #radio7:checked ~ .first, #radio10:checked ~ .first {
   margin-left: 0;
 }
-#radio5:checked ~ .first {
+
+#radio2:checked ~ .first, #radio5:checked ~ .first, #radio8:checked ~ .first, #radio11:checked ~ .first {
   margin-left: -20%;
 }
-#radio6:checked ~ .first {
+
+#radio3:checked ~ .first, #radio6:checked ~ .first, #radio9:checked ~ .first, #radio12:checked ~ .first {
   margin-left: -40%;
 }
-#radio7:checked ~ .first {
-  margin-left: 0;
-}
-#radio8:checked ~ .first {
-  margin-left: -20%;
-}
-#radio9:checked ~ .first {
-  margin-left: -40%;
-}
-#radio10:checked ~ .first {
-  margin-left: 0;
-}
-#radio11:checked ~ .first {
-  margin-left: -20%;
-}
-#radio12:checked ~ .first {
-  margin-left: -40%;
-}
+
 .navigation-auto {
     position: absolute;
     display: flex;
@@ -529,41 +453,8 @@ header {
         }
     }
 }
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-    background-color: $white;
-}
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-    background-color: $white;
-}
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-    background-color: $white;
-}
-#radio4:checked ~ .navigation-auto .auto-btn1 {
-  background-color: $white;
-}
-#radio5:checked ~ .navigation-auto .auto-btn2 {
-  background-color: $white;
-}
-#radio6:checked ~ .navigation-auto .auto-btn3 {
-  background-color: $white;
-}
-#radio7:checked ~ .navigation-auto .auto-btn1 {
-  background-color: $white;
-}
-#radio8:checked ~ .navigation-auto .auto-btn2 {
-  background-color: $white;
-}
-#radio9:checked ~ .navigation-auto .auto-btn3 {
-  background-color: $white;
-}
-#radio10:checked ~ .navigation-auto .auto-btn1 {
-  background-color: $white;
-}
-#radio11:checked ~ .navigation-auto .auto-btn2 {
-  background-color: $white;
-}
-#radio12:checked ~ .navigation-auto .auto-btn3 {
-  background-color: $white;
+#radio1:checked ~ .navigation-auto .auto-btn1, #radio2:checked ~ .navigation-auto .auto-btn2, #radio3:checked ~ .navigation-auto .auto-btn3, #radio4:checked ~ .navigation-auto .auto-btn1, #radio5:checked ~ .navigation-auto .auto-btn2, #radio6:checked ~ .navigation-auto .auto-btn3, #radio7:checked ~ .navigation-auto .auto-btn1, #radio8:checked ~ .navigation-auto .auto-btn2, #radio9:checked ~ .navigation-auto .auto-btn3, #radio10:checked ~ .navigation-auto .auto-btn1, #radio11:checked ~ .navigation-auto .auto-btn2, #radio12:checked ~ .navigation-auto .auto-btn3 {
+  background-color: #fff;
 }
 
 footer {
@@ -756,16 +647,7 @@ footer {
     margin-right: 0;
   }
 
-  .slider{
-    margin-left: 2vw;
-  }
-  .slider1{
-    margin-left: 2vw;
-  }
-  .slider2{
-    margin-left: 2vw;
-  }
-  .slider3{
+  .slider, .slider1, .slider2, .slider3 {
     margin-left: 2vw;
   }
 
