@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Eunoia</title>
+    <!-- Embedding CSS -->
+    <link rel="stylesheet" href="css/style2.css"/>
+
+    <!-- Embedding Fontawoseme -->
+    <script src="https://kit.fontawesome.com/22a69e2285.js" crossorigin="anonymous"></script>
+
+    <!-- Embedding AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- CSS Kalkulator -->
+    <link rel="stylesheet" href="css/kalkulator.css">
+  </head>
+  <body>
+    <header>
+      <!-- Logo -->
+      <h3 class="logo"><span>Kelo</span>mpok 1</h3>
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar" class="fas fa-bars"></label>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html">About Us</a>
+        <a href="index.html">Biodata</a>
+        <a href="kalkulator.html">Kalkulator</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="calculator dark">
+        <div class="theme-toggler active">
+          <i class="toggler-icon"></i>
+        </div>
+        <div class="display-screen">
+          <div id="display"></div>
+        </div>
+        <div class="buttons">
+          <table>
+            <tr>
+              <td><button class="btn-operator" id="clear">C</button></td>
+              <td><button class="btn-operator" id="/">&divide;</button></td>
+              <td><button class="btn-operator" id="*">&times;</button></td>
+              <td><button class="btn-operator" id="backspace"><i class="fas fa-backspace"></i></button></td>
+            </tr>
+            <tr>
+              <td><button class="btn-number" id="7">7</button></td>
+              <td><button class="btn-number" id="8">8</button></td>
+              <td><button class="btn-number" id="9">9</button></td>
+              <td><button class="btn-operator" id="-">-</button></td>
+            </tr>
+            <tr>
+              <td><button class="btn-number" id="4">4</button></td>
+              <td><button class="btn-number" id="5">5</button></td>
+              <td><button class="btn-number" id="6">6</button></td>
+              <td><button class="btn-operator" id="+">+</button></td>
+            </tr>
+            <tr>
+              <td><button class="btn-number" id="1">1</button></td>
+              <td><button class="btn-number" id="2">2</button></td>
+              <td><button class="btn-number" id="3">3</button></td>
+              <td rowspan="2">
+                <button class="btn-equal" id="equal">=</button>
+              </td>
+            </tr>
+            <tr>
+              <td><button class="btn-operator" id="(">(</button></td>
+              <td><button class="btn-number" id="0">0</button></td>
+              <td><button class="btn-operator" id=")">)</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="kalkulator.js"></script>
+  </body>
+</html>
