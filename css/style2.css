@@ -300,25 +300,7 @@ header label {
   overflow: hidden;
 }
 
-.prod {
-  color: #7E78C7;
-  font-size: 2.8rem;
-  font-weight: bold;
-}
-
-.prod1 {
-  color: #7E78C7;
-  font-size: 2.8rem;
-  font-weight: bold;
-}
-
-.prod2 {
-  color: #7E78C7;
-  font-size: 2.8rem;
-  font-weight: bold;
-}
-
-.prod3 {
+.prod, .prod1, .prod2, .prod3 {
   color: #7E78C7;
   font-size: 2.8rem;
   font-weight: bold;
@@ -356,19 +338,7 @@ header label {
   transition: all 0.4s;
 }
 
-.left {
-  background: #7E78C7;
-}
-
-.left1 {
-  background: #7E78C7;
-}
-
-.left2 {
-  background: #7E78C7;
-}
-
-.left3 {
+.left, .left1, .left2, .left3 {
   background: #7E78C7;
 }
 
@@ -406,31 +376,7 @@ header label {
   border-radius: 10px;
 }
 
-.slider {
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-left: 4.5vw;
-}
-
-.slider1 {
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-left: 4.5vw;
-}
-
-.slider2 {
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-left: 4.5vw;
-}
-
-.slider3 {
+.slider, .slider1, .slider2, .slider3 {
   width: 250px;
   height: 250px;
   border-radius: 10px;
@@ -478,51 +424,15 @@ header label {
   background: #fff;
 }
 
-#radio1:checked ~ .first {
+#radio1:checked ~ .first, #radio4:checked ~ .first, #radio7:checked ~ .first, #radio10:checked ~ .first {
   margin-left: 0;
 }
 
-#radio2:checked ~ .first {
+#radio2:checked ~ .first, #radio5:checked ~ .first, #radio8:checked ~ .first, #radio11:checked ~ .first {
   margin-left: -20%;
 }
 
-#radio3:checked ~ .first {
-  margin-left: -40%;
-}
-
-#radio4:checked ~ .first {
-  margin-left: 0;
-}
-
-#radio5:checked ~ .first {
-  margin-left: -20%;
-}
-
-#radio6:checked ~ .first {
-  margin-left: -40%;
-}
-
-#radio7:checked ~ .first {
-  margin-left: 0;
-}
-
-#radio8:checked ~ .first {
-  margin-left: -20%;
-}
-
-#radio9:checked ~ .first {
-  margin-left: -40%;
-}
-
-#radio10:checked ~ .first {
-  margin-left: 0;
-}
-
-#radio11:checked ~ .first {
-  margin-left: -20%;
-}
-
-#radio12:checked ~ .first {
+#radio3:checked ~ .first, #radio6:checked ~ .first, #radio9:checked ~ .first, #radio12:checked ~ .first {
   margin-left: -40%;
 }
 
@@ -533,6 +443,7 @@ header label {
   margin-top: 220px;
   justify-content: center;
 }
+
 .navigation-auto div {
   border: 2px solid #fff;
   padding: 5px;
@@ -543,51 +454,7 @@ header label {
   margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-  background-color: #fff;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-  background-color: #fff;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-  background-color: #fff;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn1 {
-  background-color: #fff;
-}
-
-#radio5:checked ~ .navigation-auto .auto-btn2 {
-  background-color: #fff;
-}
-
-#radio6:checked ~ .navigation-auto .auto-btn3 {
-  background-color: #fff;
-}
-
-#radio7:checked ~ .navigation-auto .auto-btn1 {
-  background-color: #fff;
-}
-
-#radio8:checked ~ .navigation-auto .auto-btn2 {
-  background-color: #fff;
-}
-
-#radio9:checked ~ .navigation-auto .auto-btn3 {
-  background-color: #fff;
-}
-
-#radio10:checked ~ .navigation-auto .auto-btn1 {
-  background-color: #fff;
-}
-
-#radio11:checked ~ .navigation-auto .auto-btn2 {
-  background-color: #fff;
-}
-
-#radio12:checked ~ .navigation-auto .auto-btn3 {
+#radio1:checked ~ .navigation-auto .auto-btn1, #radio2:checked ~ .navigation-auto .auto-btn2, #radio3:checked ~ .navigation-auto .auto-btn3, #radio4:checked ~ .navigation-auto .auto-btn1, #radio5:checked ~ .navigation-auto .auto-btn2, #radio6:checked ~ .navigation-auto .auto-btn3, #radio7:checked ~ .navigation-auto .auto-btn1, #radio8:checked ~ .navigation-auto .auto-btn2, #radio9:checked ~ .navigation-auto .auto-btn3, #radio10:checked ~ .navigation-auto .auto-btn1, #radio11:checked ~ .navigation-auto .auto-btn2, #radio12:checked ~ .navigation-auto .auto-btn3 {
   background-color: #fff;
 }
 
@@ -771,16 +638,7 @@ footer img {
     text-align: center;
     margin-right: 0;
   }
-  .slider {
-    margin-left: 2vw;
-  }
-  .slider1 {
-    margin-left: 2vw;
-  }
-  .slider2 {
-    margin-left: 2vw;
-  }
-  .slider3 {
+  .slider, .slider1, .slider2, .slider3 {
     margin-left: 2vw;
   }
   .social-media-list {
