@@ -477,13 +477,9 @@ footer img {
   width: 30vw;
   height: 8vh;
 }
-
 .col-left {
   margin-left: 4rem;
   margin-right: 4vh;
-}
-
-.col-left {
   color: #fff;
   flex: 1;
   margin-right: 25px;
@@ -494,7 +490,6 @@ footer img {
   line-height: 25px;
   font-size: 1.8rem;
 }
-
 .social-media-list {
   display: flex;
 }
