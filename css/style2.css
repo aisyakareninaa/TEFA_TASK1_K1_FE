@@ -201,17 +201,12 @@ header label {
   justify-content: center;
   flex-wrap: wrap;
 }
-.about .column .image {
-  flex: 1 1 200px;
-}
-.about .column .image img {
-  border-radius: px;
-}
 .about .column .content {
   flex: 1 1 240px;
 }
 .about .column .content p {
   font-size: 2rem;
+  margin-left: 40px;
   color: #666;
   padding: 16px 0;
   text-align: justify;
@@ -219,7 +214,8 @@ header label {
 
 .btn {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 12px;
+  margin-left: 40px;
   padding: 0.8rem 5rem;
   border-radius: 12px;
   background: linear-gradient(90deg, var(#544e92), var(#7E78C7));
