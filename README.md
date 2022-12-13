@@ -1,23 +1,7 @@
 # TEFA_TASK1_K1_FE
 KELOMPOK 1 PROJECT 1 TEFA KELAS SPESIALISASI FRONTEND
 
-
-# Home Page
-![home yunoya](https://user-images.githubusercontent.com/100953845/199120755-bd6c5536-6340-495d-9d37-ce8d03f1ce93.jpeg)
-
-# About Us Page 
-![about yunoya](https://user-images.githubusercontent.com/100953845/199120799-88acdf85-f5c1-48a5-bed4-2c160796e337.jpeg)
-
-# Biodata Page 
-![bidata yunoya](https://user-images.githubusercontent.com/100953845/199120832-37d1063a-d089-4076-b1ff-5138d04e0cb1.jpeg)
-
-Details
-![biodata detail yunoya](https://user-images.githubusercontent.com/100953845/199120871-7c9733fd-b576-45c3-ac1c-baeb5fed5ed2.jpeg)
-
-# Footer
-![footer yunoya](https://user-images.githubusercontent.com/100953845/199120903-37bb08e0-5a51-4828-8f38-138226ad17b9.jpeg)
-
-<div align="center">
+<div align="left">
   <a href="https://github.com/aisyakareninaa/TEFA_TASK1_K1_FE"></a>
 
 <h3 align="center">TUGAS BESAR FRONTEND</h3>
@@ -26,8 +10,8 @@ Details
     TEFA SMK Telkom Malang Spesialisasi Frontend Kelompok 1
    <br> Consists : </br>
 <br>1. Aisya Karenina Ramadhani</br>
-<br>2. Alya Rusyda Maharistya</br>
-<br>3. Celline Regia Yasshinta</br>
+2. Alya Rusyda Maharistya
+<br>3. Celline Regia Yasshinta
 <br>4. Gizella Ratu Pramesti</br>
     <br />
     <a href=""https://github.com/aisyakareninaa/TEFA_TASK1_K1_FE"><strong>Explore the docs »</strong></a>
@@ -43,157 +27,65 @@ Details
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Built With</a>
+  <li><a href="#homepage">Home Page</a></li>
+  <li><a href="#about">About Us Page</a></li>
+  <li><a href="#biodata">Biodata</a></li>
+  <li><a href="#details">Details</a></li>
+  <li><a href="#footer">Footer</a></li>
+  </li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#requirement">Requirement</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 ### Built With
 
-* [![Node][Node.js]][Node-url]
-* [![React][React.js]][React-url]
 * ![HTML][HTML]
 * ![CSS3][CSS3]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![Sass][Sass]][Sass-url]
+* [![JavaScript][js]][js-url]
+* [![Node][Node.js]][Node-url]
+* [![React][React.js]][React-url]
+* [![Docker][Docker]][Docker-url]
+ 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  ## Homepage
+![home yunoya](https://user-images.githubusercontent.com/100953845/199120755-bd6c5536-6340-495d-9d37-ce8d03f1ce93.jpeg)
 
+## About
+![about yunoya](https://user-images.githubusercontent.com/100953845/199120799-88acdf85-f5c1-48a5-bed4-2c160796e337.jpeg)
 
+## Biodata
+![bidata yunoya](https://user-images.githubusercontent.com/100953845/199120832-37d1063a-d089-4076-b1ff-5138d04e0cb1.jpeg)
 
-<!-- GETTING STARTED -->
-## Getting Started
+## Details
+![biodata detail yunoya](https://user-images.githubusercontent.com/100953845/199120871-7c9733fd-b576-45c3-ac1c-baeb5fed5ed2.jpeg)
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+# Footer
+![footer yunoya](https://user-images.githubusercontent.com/100953845/199120903-37bb08e0-5a51-4828-8f38-138226ad17b9.jpeg)
 
-### Prerequisites
+<!-- REQUIREMENT -->
+## Requirement
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- [ ] Responsive Website 
+- [ ] Carousel Picture
+- [ ] Multimedia (photos, video, maps)
+- [ ] Dark and Light Mode Simple Calculator
 
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+Visit (link docker)
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+Created by Kelompok 1 TEFA SMK Telkom Malang Frontend Specialization powered by Telkom Indonesia DBT
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -211,8 +103,10 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
-[Node.js]: https://img.shields.io/badge/node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white
-[Node-url]: https://nodejs.org/
+[js]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[js-url]: https://nodejs.org/
+[Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://www.javascript.com
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [HTML]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
@@ -222,3 +116,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Bootstrap-url]: https://getbootstrap.com
 [Sass]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
 [Sass-url]: https://sass-lang.com/
+[Docker]: https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]: https://hub.docker.com
+  
