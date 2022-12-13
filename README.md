@@ -2,24 +2,19 @@
 KELOMPOK 1 PROJECT 1 TEFA KELAS SPESIALISASI FRONTEND
 
 
-# Wireframe 
-
-
-
-# Tampilan Website 
-
-Home Page
+# Home Page
 ![home yunoya](https://user-images.githubusercontent.com/100953845/199120755-bd6c5536-6340-495d-9d37-ce8d03f1ce93.jpeg)
 
-About Us Page 
+# About Us Page 
 ![about yunoya](https://user-images.githubusercontent.com/100953845/199120799-88acdf85-f5c1-48a5-bed4-2c160796e337.jpeg)
 
-Biodata Page 
+# Biodata Page 
 ![bidata yunoya](https://user-images.githubusercontent.com/100953845/199120832-37d1063a-d089-4076-b1ff-5138d04e0cb1.jpeg)
-Biodata detail 
+
+Details
 ![biodata detail yunoya](https://user-images.githubusercontent.com/100953845/199120871-7c9733fd-b576-45c3-ac1c-baeb5fed5ed2.jpeg)
 
-Footer
+# Footer
 ![footer yunoya](https://user-images.githubusercontent.com/100953845/199120903-37bb08e0-5a51-4828-8f38-138226ad17b9.jpeg)
 
 <div align="center">
@@ -82,7 +77,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
+* [![Node][Node.js]][Node-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
@@ -218,8 +213,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[Node.js]: https://img.shields.io/badge/node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white
+[Node-url]: https://nodejs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
